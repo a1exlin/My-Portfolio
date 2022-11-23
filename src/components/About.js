@@ -3,7 +3,7 @@ import React from "react";
 function About() {
   return (
     <div>
-      <p className="content is-medium">Technical Writer and Something-of-a Full Stack Developer</p>
+      <p className="content is-medium"> Junior Fullstack Developer Student </p>
       <hr />
       <img className="pic" src={process.env.PUBLIC_URL + './public/IMG_0553.jpg'} alt="selfie"/>
 
