@@ -4,7 +4,7 @@ function Resume() {
   return (
     <div className="columns">
       <div className="column">
-        <p className="content is-medium">Reusme</p>
+        <p className="content is-medium">Resume</p>
         <hr />
 
         <a
