@@ -10,10 +10,12 @@ function App() {
 
             </Header>
 
-            <Footer></Footer>
+            <Footer>
+                
+            </Footer>
 
             <p>
-                
+
             </p>
         </div>
 
