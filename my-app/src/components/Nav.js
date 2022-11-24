@@ -5,7 +5,7 @@ function Navigation(props) {
   return (
     <div className="tabs is-centered">
       <ul className="nav nav-tabs">
-        {tabs.map((tab) => (
+        {tabs.map((tab, i) => (
           <li
             className={
               props.currentPage === tab ? "nav-item is-active" : "nav-item"
@@ -16,10 +16,8 @@ function Navigation(props) {
               href={"#" + tab.toLowerCase()}
               // Whenever a tab is clicked on,
               // the current page is set through the handlePageChange props.
-              onClick={() => props.handlePageChange(tab)}
-              className={
-                props.currentPage === tab ? "nav-link active" : "nav-link"
-              }
+              onClick= {()=>props.setcurrentPage(i)}
+         
             >
               {tab}
             </a>
