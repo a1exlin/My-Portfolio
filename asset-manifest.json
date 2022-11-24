@@ -1,0 +1,16 @@
+{
+  "files": {
+    "main.css": "/Module-20-Challenge/static/css/main.4deafcfb.css",
+    "main.js": "/Module-20-Challenge/static/js/main.b9b7762c.js",
+    "static/js/787.28cb0dcd.chunk.js": "/Module-20-Challenge/static/js/787.28cb0dcd.chunk.js",
+    "static/media/selfie.png": "/Module-20-Challenge/static/media/selfie.dc033846d4c7987fd993.png",
+    "index.html": "/Module-20-Challenge/index.html",
+    "main.4deafcfb.css.map": "/Module-20-Challenge/static/css/main.4deafcfb.css.map",
+    "main.b9b7762c.js.map": "/Module-20-Challenge/static/js/main.b9b7762c.js.map",
+    "787.28cb0dcd.chunk.js.map": "/Module-20-Challenge/static/js/787.28cb0dcd.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.4deafcfb.css",
+    "static/js/main.b9b7762c.js"
+  ]
+}
