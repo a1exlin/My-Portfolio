@@ -34,11 +34,13 @@ function display() {
     <Nav setcurrentPage={setcurrentPage}></Nav>
     {currentPage}
     {display()};
-    
-    
-    
+     
+  
     </div>
+    
   );
 }
 
 export default App;
+
+// background iamge edited
