@@ -1,6 +1,6 @@
 import React from "react";
 import Project from "./Project";
-
+// added this into page
 const projects = [
   {
     id: 0,
@@ -27,7 +27,7 @@ const projects = [
 function Portfolio() {
   return (
     <div>
-      <p className="content is-medium">Portfolio</p>
+      <p className="content is-medium"> A Insight of my Portfolio </p>
       <hr />
 
       <Project projects={projects} />

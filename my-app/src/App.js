@@ -3,6 +3,7 @@ import './App.css';
 import Nav from './components/Nav'
 import About from './components/About'
 import Project from'./components/Project'
+import Portfolio from './components/Portfolio';
 // import Contact from '../components/Contact';
 // import Resume from '../components/Resume'
 // import Portfolio from '../components/Portfolio';
@@ -16,9 +17,9 @@ function display() {
   if(currentPage===0) {
     return <About></About>
   }
-  // else if (currentPage===1){
-  //   return <Portfolio></Portfolio>
-  // }
+  else if (currentPage===1){
+    return <Portfolio></Portfolio>
+  }
   // else if (currentPage===2){
   //   return <Contact></Contact>
   // }
